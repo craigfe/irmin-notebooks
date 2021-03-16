@@ -1,227 +1,339 @@
 {
   "results": [
     {
-      "name": "/bin/bool/decoder",
-      "metrics": {
-        "major-allocated (words)": 3.418809310013383e-05,
-        "minor-allocated (words)": 6.000041696562885,
-        "monotonic-clock (ns)": 21.544248537974635
-      }
-    },
-    {
-      "name": "/bin/bool/encoder",
-      "metrics": {
-        "major-allocated (words)": 0.0009205748228780818,
-        "minor-allocated (words)": 23.00012838501431,
-        "monotonic-clock (ns)": 66.94400907830395
-      }
-    },
-    {
       "name": "/bin/bytes<1024>/decoder",
       "metrics": {
-        "major-allocated (words)": 0.003873437314765559,
-        "minor-allocated (words)": 193.0006251906462,
-        "monotonic-clock (ns)": 341.8732958833874
+        "major-allocated (words)": 2.6213247671550756e-08,
+        "minor-allocated (words)": 153.00026289415834,
+        "monotonic-clock (ns)": 136.7503235405881
       }
     },
     {
       "name": "/bin/bytes<1024>/encoder",
       "metrics": {
-        "major-allocated (words)": 258.00798349635465,
-        "minor-allocated (words)": 308.00262475018553,
-        "monotonic-clock (ns)": 1349.7081359194246
-      }
-    },
-    {
-      "name": "/bin/hash/decoder",
-      "metrics": {
-        "major-allocated (words)": 0.00010138162978631408,
-        "minor-allocated (words)": 18.000053474835063,
-        "monotonic-clock (ns)": 27.765236546013792
-      }
-    },
-    {
-      "name": "/bin/hash/encoder",
-      "metrics": {
-        "major-allocated (words)": 0.0018172378999566773,
-        "minor-allocated (words)": 39.00014182153805,
-        "monotonic-clock (ns)": 73.56735562984406
-      }
-    },
-    {
-      "name": "/bin/int/char (0 <= b <= 7)/decoder",
-      "metrics": {
-        "major-allocated (words)": 0.0009458854530046959,
-        "minor-allocated (words)": 31.974997496186383,
-        "monotonic-clock (ns)": 35.82181670680077
-      }
-    },
-    {
-      "name": "/bin/int/char (0 <= b <= 7)/encoder",
-      "metrics": {
-        "major-allocated (words)": 0.0012909356681471123,
-        "minor-allocated (words)": 32.48294735056917,
-        "monotonic-clock (ns)": 96.80167718301867
-      }
-    },
-    {
-      "name": "/bin/int/long (16 <= b <= 32)/decoder",
-      "metrics": {
-        "major-allocated (words)": 0.0020493427787310406,
-        "minor-allocated (words)": 56.000095243867904,
-        "monotonic-clock (ns)": 49.66001538667193
-      }
-    },
-    {
-      "name": "/bin/int/long (16 <= b <= 32)/encoder",
-      "metrics": {
-        "major-allocated (words)": 0.002792552009330636,
-        "minor-allocated (words)": 49.000330544545314,
-        "monotonic-clock (ns)": 171.2365969622465
-      }
-    },
-    {
-      "name": "/bin/int/short (8 <= b <= 15)/decoder",
-      "metrics": {
-        "major-allocated (words)": 0.0013896739365090453,
-        "minor-allocated (words)": 40.00006995938123,
-        "monotonic-clock (ns)": 36.56347331628439
-      }
-    },
-    {
-      "name": "/bin/int/short (8 <= b <= 15)/encoder",
-      "metrics": {
-        "major-allocated (words)": 0.001634638871704797,
-        "minor-allocated (words)": 38.00023098022744,
-        "monotonic-clock (ns)": 118.89313955725603
-      }
-    },
-    {
-      "name": "/bin/int32/decoder",
-      "metrics": {
-        "major-allocated (words)": 0.0,
-        "minor-allocated (words)": 6.000032190818438,
-        "monotonic-clock (ns)": 16.918248993943667
-      }
-    },
-    {
-      "name": "/bin/int32/encoder",
-      "metrics": {
-        "major-allocated (words)": 0.0009200407782881256,
-        "minor-allocated (words)": 25.000183712925647,
-        "monotonic-clock (ns)": 98.07121552960278
-      }
-    },
-    {
-      "name": "/bin/int64/decoder",
-      "metrics": {
-        "major-allocated (words)": 0.0,
-        "minor-allocated (words)": 6.0000288530918935,
-        "monotonic-clock (ns)": 16.360928758091497
-      }
-    },
-    {
-      "name": "/bin/int64/encoder",
-      "metrics": {
-        "major-allocated (words)": 0.0011248318110894354,
-        "minor-allocated (words)": 29.00018189325746,
-        "monotonic-clock (ns)": 90.03523747596667
+        "major-allocated (words)": 258.00991948275043,
+        "minor-allocated (words)": 301.001346261019,
+        "monotonic-clock (ns)": 682.4845684046593
       }
     },
     {
       "name": "/bin/pair_string_int/decoder",
       "metrics": {
-        "major-allocated (words)": 0.01132643247991846,
-        "minor-allocated (words)": 164.0003082918528,
-        "monotonic-clock (ns)": 158.34627683986508
+        "major-allocated (words)": 0.0009172217824087331,
+        "minor-allocated (words)": 52.00014324024067,
+        "monotonic-clock (ns)": 74.32671599741943
       }
     },
     {
       "name": "/bin/pair_string_int/encoder",
       "metrics": {
-        "major-allocated (words)": 0.009108823848990019,
-        "minor-allocated (words)": 114.00057731108704,
-        "monotonic-clock (ns)": 276.15400645684883
+        "major-allocated (words)": 0.004262183038071778,
+        "minor-allocated (words)": 68.0005603176827,
+        "monotonic-clock (ns)": 290.416287163864
       }
     },
     {
       "name": "/bin/record/decoder",
       "metrics": {
-        "major-allocated (words)": 0.022051993071642354,
-        "minor-allocated (words)": 195.0003651502715,
-        "monotonic-clock (ns)": 188.50195440364564
+        "major-allocated (words)": 0.0035606872130216466,
+        "minor-allocated (words)": 78.00021329859098,
+        "monotonic-clock (ns)": 110.73554021833597
       }
     },
     {
       "name": "/bin/record/encoder",
       "metrics": {
-        "major-allocated (words)": 0.014641906708651222,
-        "minor-allocated (words)": 131.0005659257973,
-        "monotonic-clock (ns)": 290.7982137201483
+        "major-allocated (words)": 0.0073167208278857206,
+        "minor-allocated (words)": 87.0006838199519,
+        "monotonic-clock (ns)": 352.70099528058165
       }
     },
     {
       "name": "/bin/string<1024>/decoder",
       "metrics": {
-        "major-allocated (words)": 0.0038246821858478742,
-        "minor-allocated (words)": 193.0004637249309,
-        "monotonic-clock (ns)": 239.40029921039
+        "major-allocated (words)": 2.569688004895018e-08,
+        "minor-allocated (words)": 153.00026028987213,
+        "monotonic-clock (ns)": 135.78235012794357
       }
     },
     {
       "name": "/bin/string<1024>/encoder",
       "metrics": {
-        "major-allocated (words)": 258.00848002655,
-        "minor-allocated (words)": 178.00249716303438,
-        "monotonic-clock (ns)": 1282.062203128213
+        "major-allocated (words)": 258.0088418454133,
+        "minor-allocated (words)": 171.00126814010534,
+        "monotonic-clock (ns)": 646.6408696569753
+      }
+    },
+    {
+      "name": "/bin/tree/decoder",
+      "metrics": {
+        "major-allocated (words)": 73926.56633747932,
+        "minor-allocated (words)": 1220511.099236641,
+        "monotonic-clock (ns)": 2364440.6443388667
+      }
+    },
+    {
+      "name": "/bin/tree/encoder",
+      "metrics": {
+        "major-allocated (words)": 44538.45801368444,
+        "minor-allocated (words)": 1065165.3714285714,
+        "monotonic-clock (ns)": 3745744.8924735636
       }
     },
     {
       "name": "/bin/triple_short_int/decoder",
       "metrics": {
-        "major-allocated (words)": 0.016822059730857573,
-        "minor-allocated (words)": 208.0003688042485,
-        "monotonic-clock (ns)": 197.20057021314872
+        "major-allocated (words)": 0.0015336753908485711,
+        "minor-allocated (words)": 67.00011393107611,
+        "monotonic-clock (ns)": 58.823426110868205
       }
     },
     {
       "name": "/bin/triple_short_int/encoder",
       "metrics": {
-        "major-allocated (words)": 0.008597219098258533,
-        "minor-allocated (words)": 143.00067704295463,
-        "monotonic-clock (ns)": 344.5281626974415
-      }
-    },
-    {
-      "name": "/bin/unit/decoder",
-      "metrics": {
-        "major-allocated (words)": 0.0,
-        "minor-allocated (words)": 3.0000222754989068,
-        "monotonic-clock (ns)": 11.51527571550324
-      }
-    },
-    {
-      "name": "/bin/unit/encoder",
-      "metrics": {
-        "major-allocated (words)": 0.00018723145445809515,
-        "minor-allocated (words)": 14.000059661199305,
-        "monotonic-clock (ns)": 31.018828740760075
+        "major-allocated (words)": 0.005410333946272815,
+        "minor-allocated (words)": 87.00089482791341,
+        "monotonic-clock (ns)": 464.59958285355697
       }
     },
     {
       "name": "/bin/variant/decoder",
       "metrics": {
-        "major-allocated (words)": 0.002857989405180968,
-        "minor-allocated (words)": 80.46359115799045,
-        "monotonic-clock (ns)": 84.84738744647244
+        "major-allocated (words)": 0.0011550558853775147,
+        "minor-allocated (words)": 45.3388996636314,
+        "monotonic-clock (ns)": 74.82443185396515
       }
     },
     {
       "name": "/bin/variant/encoder",
       "metrics": {
-        "major-allocated (words)": 0.003924050360405679,
-        "minor-allocated (words)": 63.78223523122511,
-        "monotonic-clock (ns)": 164.67643745163807
+        "major-allocated (words)": 0.0029666693643977493,
+        "minor-allocated (words)": 54.01604971675663,
+        "monotonic-clock (ns)": 236.4029243645738
+      }
+    },
+    {
+      "name": "/bin_string/bytes<1024>/decoder",
+      "metrics": {
+        "major-allocated (words)": 2.6272848980090002e-09,
+        "minor-allocated (words)": 132.00021758783043,
+        "monotonic-clock (ns)": 113.07507451219956
+      }
+    },
+    {
+      "name": "/bin_string/bytes<1024>/encoder",
+      "metrics": {
+        "major-allocated (words)": 0.0,
+        "minor-allocated (words)": 130.00020909392114,
+        "monotonic-clock (ns)": 108.90352636893343
+      }
+    },
+    {
+      "name": "/bin_string/pair_string_int/decoder",
+      "metrics": {
+        "major-allocated (words)": 0.0030359565761665284,
+        "minor-allocated (words)": 78.00018928192094,
+        "monotonic-clock (ns)": 98.16417885290879
+      }
+    },
+    {
+      "name": "/bin_string/pair_string_int/encoder",
+      "metrics": {
+        "major-allocated (words)": 0.004043349464179281,
+        "minor-allocated (words)": 85.00057159006869,
+        "monotonic-clock (ns)": 297.1907999089286
+      }
+    },
+    {
+      "name": "/bin_string/record/decoder",
+      "metrics": {
+        "major-allocated (words)": 0.005777150480507702,
+        "minor-allocated (words)": 97.00025012830059,
+        "monotonic-clock (ns)": 130.44029861263303
+      }
+    },
+    {
+      "name": "/bin_string/record/encoder",
+      "metrics": {
+        "major-allocated (words)": 0.009914162988109704,
+        "minor-allocated (words)": 169.0008859586131,
+        "monotonic-clock (ns)": 460.52095719213554
+      }
+    },
+    {
+      "name": "/bin_string/string<1024>/decoder",
+      "metrics": {
+        "major-allocated (words)": 0.0,
+        "minor-allocated (words)": 2.0000238824744847,
+        "monotonic-clock (ns)": 12.444265401848112
+      }
+    },
+    {
+      "name": "/bin_string/string<1024>/encoder",
+      "metrics": {
+        "major-allocated (words)": 0.0,
+        "minor-allocated (words)": 8.917455203014784e-06,
+        "monotonic-clock (ns)": 4.666308482269128
+      }
+    },
+    {
+      "name": "/bin_string/tree/decoder",
+      "metrics": {
+        "major-allocated (words)": 73912.99891862909,
+        "minor-allocated (words)": 1220524.0359712234,
+        "monotonic-clock (ns)": 2161666.1875150814
+      }
+    },
+    {
+      "name": "/bin_string/tree/encoder",
+      "metrics": {
+        "major-allocated (words)": 24059.249562032175,
+        "minor-allocated (words)": 2031442.5824175822,
+        "monotonic-clock (ns)": 4967708.8941551205
+      }
+    },
+    {
+      "name": "/bin_string/triple_short_int/decoder",
+      "metrics": {
+        "major-allocated (words)": 0.00239052095746751,
+        "minor-allocated (words)": 82.00015511300438,
+        "monotonic-clock (ns)": 80.77043372759023
+      }
+    },
+    {
+      "name": "/bin_string/triple_short_int/encoder",
+      "metrics": {
+        "major-allocated (words)": 0.005159620819597863,
+        "minor-allocated (words)": 111.00068381995186,
+        "monotonic-clock (ns)": 355.21891697893005
+      }
+    },
+    {
+      "name": "/bin_string/variant/decoder",
+      "metrics": {
+        "major-allocated (words)": 0.0013133492418902267,
+        "minor-allocated (words)": 58.34983903428664,
+        "monotonic-clock (ns)": 87.46090508024865
+      }
+    },
+    {
+      "name": "/bin_string/variant/encoder",
+      "metrics": {
+        "major-allocated (words)": 0.003225880660870875,
+        "minor-allocated (words)": 75.01446071444444,
+        "monotonic-clock (ns)": 238.31242469047822
+      }
+    },
+    {
+      "name": "/pre_hash/bytes<1024>/",
+      "metrics": {
+        "major-allocated (words)": 0.2768217560941259,
+        "minor-allocated (words)": 402.000423973226,
+        "monotonic-clock (ns)": 220.82992860933572
+      }
+    },
+    {
+      "name": "/pre_hash/pair_string_int/",
+      "metrics": {
+        "major-allocated (words)": 0.004262026292871566,
+        "minor-allocated (words)": 68.00057159006866,
+        "monotonic-clock (ns)": 295.3148030606013
+      }
+    },
+    {
+      "name": "/pre_hash/record/",
+      "metrics": {
+        "major-allocated (words)": 0.0073167208278857206,
+        "minor-allocated (words)": 87.0006838199519,
+        "monotonic-clock (ns)": 354.01624133952464
+      }
+    },
+    {
+      "name": "/pre_hash/string<1024>/",
+      "metrics": {
+        "major-allocated (words)": 0.13855557657727602,
+        "minor-allocated (words)": 272.0003439746301,
+        "monotonic-clock (ns)": 178.65059572688213
+      }
+    },
+    {
+      "name": "/pre_hash/tree/",
+      "metrics": {
+        "major-allocated (words)": 44538.29469621271,
+        "minor-allocated (words)": 1065165.3457943925,
+        "monotonic-clock (ns)": 3542103.17137875
+      }
+    },
+    {
+      "name": "/pre_hash/triple_short_int/",
+      "metrics": {
+        "major-allocated (words)": 0.005410333946272815,
+        "minor-allocated (words)": 87.00089482791341,
+        "monotonic-clock (ns)": 462.11065439379814
+      }
+    },
+    {
+      "name": "/pre_hash/variant/",
+      "metrics": {
+        "major-allocated (words)": 0.0029362628664875746,
+        "minor-allocated (words)": 53.96510933534476,
+        "monotonic-clock (ns)": 234.8053500378924
+      }
+    },
+    {
+      "name": "/short_hash/bytes<1024>/",
+      "metrics": {
+        "major-allocated (words)": 0.003112880254582887,
+        "minor-allocated (words)": 136.00093120248115,
+        "monotonic-clock (ns)": 484.21134496390204
+      }
+    },
+    {
+      "name": "/short_hash/pair_string_int/",
+      "metrics": {
+        "major-allocated (words)": 0.001590447054934015,
+        "minor-allocated (words)": 55.000487398610026,
+        "monotonic-clock (ns)": 252.95290646637213
+      }
+    },
+    {
+      "name": "/short_hash/record/",
+      "metrics": {
+        "major-allocated (words)": 0.0031051132699225054,
+        "minor-allocated (words)": 67.00051228152999,
+        "monotonic-clock (ns)": 266.61851829776987
+      }
+    },
+    {
+      "name": "/short_hash/string<1024>/",
+      "metrics": {
+        "major-allocated (words)": 0.0,
+        "minor-allocated (words)": 6.001018547180861,
+        "monotonic-clock (ns)": 529.3193919799239
+      }
+    },
+    {
+      "name": "/short_hash/tree/",
+      "metrics": {
+        "major-allocated (words)": 737.3099108201907,
+        "minor-allocated (words)": 1064884.3980582522,
+        "monotonic-clock (ns)": 3794414.066599306
+      }
+    },
+    {
+      "name": "/short_hash/triple_short_int/",
+      "metrics": {
+        "major-allocated (words)": 0.0022420876234243866,
+        "minor-allocated (words)": 72.00063144844646,
+        "monotonic-clock (ns)": 326.01260565592236
+      }
+    },
+    {
+      "name": "/short_hash/variant/",
+      "metrics": {
+        "major-allocated (words)": 0.0011961580595513794,
+        "minor-allocated (words)": 41.36277184227862,
+        "monotonic-clock (ns)": 170.02639895071107
       }
     }
   ]
